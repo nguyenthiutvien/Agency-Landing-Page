@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.base {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
+    width: 570px;
+    height: 430px;
+}
+
+.send {
+    position: relative;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.button {
+    position: absolute;
+    top: 330px;
+    left: 40px;
+    border-radius: 8px;
+    background-color: #7557ff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px 35px;
+    text-align: center;
+    color: #fff;
+}
+
+.massage1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 30px;
+}
+
+.massage-child {
+    position: absolute;
+    top: 88px;
+    left: 0px;
+    background-color: #d7d7d7;
+    width: 420px;
+    height: 2px;
+}
+
+.massage {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    width: 420px;
+    height: 90px;
+}
+
+.email-child {
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    background-color: #d7d7d7;
+    width: 420px;
+    height: 2px;
+}
+
+.email {
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    width: 420px;
+    height: 40px;
+}
+
+.name {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 420px;
+    height: 40px;
+}
+
+.form {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 570px;
+    height: 430px;
+}
+
+.do-you-have {
+    position: absolute;
+    top: 116px;
+    left: 0px;
+    line-height: 30px;
+    display: inline-block;
+    width: 470px;
+}
+
+.get-in-touch {
+    margin: 0;
+}
+
+.get-in-touch-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 300;
+    color: #121116;
+    display: inline-block;
+    width: 470px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px #000;
+}
+
+.texts {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 470px;
+    height: 146px;
+}
+
+.contact {
+    position: relative;
+    width: 1070px;
+    height: 430px;
+    text-align: left;
+    font-size: 18px;
+    color: #605d6c;
+    font-family: Poppins;
+}
