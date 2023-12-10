@@ -1,0 +1,70 @@
+.service {
+  padding-top: 160px;
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #121116;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #605d6c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 70px;
+}
+
+.groupcard {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 160px;
+}
+
+.card {
+  padding-top: 48px;
+  width: 370px;
+  text-align: center;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 20px 70px 0px rgba(18, 17, 22, 0.05);
+}
+
+.cardtitle {
+  margin-top: 48px;
+  color: #121116;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+.message {
+  color: #605d6c;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 20px 20px 48px;
+}
+
+.groupcard .card:nth-child(3) .message {
+  color: #000000;
+  font-weight: 600;
+}
+
+.business-image {
+  width: 570px;
+  height: 570px;
+  border-radius: 570px;
+  background: #fffbef;
+}
