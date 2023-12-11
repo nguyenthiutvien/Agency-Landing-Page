@@ -138,6 +138,10 @@
   cursor: pointer;
 }
 
+.image img{
+  display: inline;
+}
+
 @media (max-width: 768px) {
   .groupbusiness {
     display: block;
