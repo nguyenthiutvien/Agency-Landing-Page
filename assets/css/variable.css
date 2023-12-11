@@ -6,21 +6,27 @@
     --cultured: #FFFBEF; 
     --white: hsl(0, 0%, 100%);
     --space-cadet: hsl(224, 48%, 22%); 
-/* 
-   Font family */
+
+  /* Font style */
     --font-family: 'Poppin', sans-serif;
-  /* Font size; */
+  
+    /* Font size */
     --fs-1: 70px;
     --fs-4: 18px;
     --fs-5: 16px;
+  
+    /* Font weight */
     --fw-500: 500;
     --fw-600: 600;
     --fw-700: 700;
+
     /* transition */
     --transition: 0.25s ease;
     --transition-2: 0.5s ease;
-    /* Radius */
+    
+    /* radius */
     --radius-4: 4px;
+    --radius-6: 6px;
     --radius-8: 8px;
     --radius-12: 12px;
   
