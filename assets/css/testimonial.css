@@ -1,0 +1,220 @@
+
+.base {
+    position: absolute;
+    height: 100.37%;
+    width: 100.27%;
+    top: -0.18%;
+    right: -0.14%;
+    bottom: -0.18%;
+    left: -0.14%;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0px 20px 70px rgba(18, 17, 22, 0.07);
+    border: 1px solid #e8e7ec;
+    box-sizing: border-box;
+}
+
+.power-your-business {
+    position: absolute;
+    top: 102px;
+    left: 30px;
+    line-height: 28px;
+    color: #605d6c;
+    display: inline-block;
+    width: 310px;
+}
+
+.oval {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 50%;
+    background-color: #fffbef;
+}
+
+.div {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 41.67%;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.oval-parent {
+    position: absolute;
+    height: 13.24%;
+    width: 9.73%;
+    top: 14.34%;
+    right: 8.11%;
+    bottom: 72.43%;
+    left: 82.16%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.sampson-totton {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: 0%;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.uiux-designer-copy {
+    position: absolute;
+    top: calc(50% + 3px);
+    left: 0%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #605d6c;
+}
+
+.sampson-totton-parent {
+    position: absolute;
+    width: 28.11%;
+    top: calc(50% - 106px);
+    right: 45.95%;
+    left: 25.95%;
+    height: 54px;
+    font-size: 20px;
+}
+
+.oval-copy-6 {
+    position: absolute;
+    height: 19.85%;
+    width: 14.59%;
+    top: 11.03%;
+    right: 77.3%;
+    bottom: 69.12%;
+    left: 8.11%;
+    border-radius: 50%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-1 {
+    position: absolute;
+    height: 100%;
+    width: 48.05%;
+    top: 0%;
+    right: 51.95%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.base1 {
+    position: absolute;
+    height: 100.37%;
+    width: 100.27%;
+    top: -0.18%;
+    right: -0.14%;
+    bottom: -0.18%;
+    left: -0.14%;
+    border-radius: 12px;
+    background-color: #fff;
+    border: 1px solid #e8e7ec;
+    box-sizing: border-box;
+}
+
+.div1 {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 38.89%;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.testimonial-2 {
+    position: absolute;
+    height: 100%;
+    width: 48.05%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 51.95%;
+}
+
+.testimonial-1-parent {
+    position: absolute;
+    height: 100%;
+    width: 65.81%;
+    top: 0%;
+    right: 34.19%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 1px;
+    background-color: #7557ff;
+    width: 22px;
+    height: 2px;
+}
+
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 26px;
+    border-radius: 1px;
+    background-color: #121116;
+    width: 22px;
+    height: 2px;
+}
+
+.group-inner {
+    position: absolute;
+    top: 0px;
+    left: 52px;
+    border-radius: 1px;
+    background-color: #121116;
+    width: 22px;
+    height: 2px;
+}
+
+.rectangle_parent {
+    position: absolute;
+    top: 88px;
+    left: 0px;
+    width: 74px;
+    height: 2px;
+}
+
+
+.take-care {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 50px;
+    font-weight: 600;
+    display: inline-block;
+    width: 370px;
+}
+
+.group-parent {
+    position: absolute;
+    top: 0px;
+    left: 800px;
+    width: 370px;
+    height: 90px;
+    font-size: 40px;
+}
+
+.testimonial {
+    position: relative;
+    width: 1170px;
+    height: 272px;
+    text-align: left;
+    font-size: 16px;
+    color: #121116;
+    margin: 0 auto;
+    margin-bottom: 160px;
+}
