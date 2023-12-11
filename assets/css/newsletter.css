@@ -1,11 +1,4 @@
-body {
-    margin: 0;
-    line-height: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
+
 .newsletter-child {
     position: absolute;
     top: 0px;
@@ -35,6 +28,10 @@ body {
     padding: 15px 35px;
 }
 
+.subscribe-wrapper:hover{
+    cursor: pointer;
+}
+
 .group-child {
     position: absolute;
     top: 0px;
@@ -50,6 +47,7 @@ body {
     top: 15px;
     left: 15px;
     line-height: 30px;
+    color: #fff;
 }
 
 .rectangle-parent {
@@ -102,4 +100,6 @@ body {
     font-size: 18px;
     color: #7557ff;
     font-family: Poppins;
+    margin: 0 auto;
+    margin-bottom: 160px;
 }

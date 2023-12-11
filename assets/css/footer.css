@@ -1,18 +1,19 @@
-body {
+/* body {
     margin: 0;
     line-height: normal;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}
+} */
 .bg {
     position: absolute;
     top: 0px;
     left: 0px;
     background-color: #fffbef;
-    width: 1440px;
+    width: 100%;
     height: 380px;
+    
 }
 
 .all-right-reserved {
@@ -49,7 +50,7 @@ body {
 .footer-item {
     position: absolute;
     top: 282px;
-    left: 948px;
+    left: 1015px;
     background-color: #7557ff;
     width: 53px;
     height: 2px;
@@ -57,12 +58,13 @@ body {
 
 .about {
     color: #605d6c;
+    margin-left: 20px;
 }
 
 .home-about-contact-container {
     position: absolute;
     top: 234px;
-    left: 948px;
+    left: 1016px;
     font-size: 18px;
     line-height: 30px;
     color: #7557ff;
@@ -81,12 +83,16 @@ body {
     color: #121116;
 }
 
+span{
+    display: inline;
+}
+
+
+
 .footer {
     position: relative;
-    width: 1440px;
-    height: 380px;
-    text-align: left;
     font-size: 16px;
     color: #605d6c;
-    font-family: Poppins;
+    top: -141px;
+    z-index: -1;
 }
