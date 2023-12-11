@@ -1,4 +1,4 @@
-
+/* 
 .send {
     position: relative;
     line-height: 30px;
@@ -121,4 +121,76 @@
     color: #605d6c;
     font-family: Poppins;
     margin: 0 auto;
+} */
+
+.contact {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.get-in-touch-container {
+  width: 470px;
+  color: #121116;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 50px;
+}
+
+.do-you-have {
+  color: #605d6c;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 470px;
+}
+
+.form {
+  display: flex;
+}
+
+.groupform {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 20px 80px 0px rgba(0, 0, 0, 0.08);
+  padding: 40px 110px 40px 40px;
+}
+.send {
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.massage {
+  width: 420px;
+  height: 90px;
+}
+
+.massage1 {
+  color: #605d6c;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.contact-child {
+  background-color: #d7d7d7;
+  width: 420px;
+  height: 2px;
+  margin-bottom: 40px;
+}
+
+.massage:nth-child(3) .massage1{
+    margin-bottom: 40px;
+}
+
+.contact button {
+    cursor: pointer;
+    padding: 15px 30px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #7557FF;
+    line-height: 30px;
 }
