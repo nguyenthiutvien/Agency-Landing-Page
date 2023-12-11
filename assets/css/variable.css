@@ -1,23 +1,25 @@
 :root {  
+  /* Color */
     ---purple: #7557FF;
     --gray:#605D6C;
     --blue: hsl(244, 86%, 59%);
     --cultured: #FFFBEF; 
     --white: hsl(0, 0%, 100%);
     --space-cadet: hsl(224, 48%, 22%); 
-
-  
+/* 
+   Font family */
     --font-family: 'Poppin', sans-serif;
-  
+  /* Font size; */
     --fs-1: 70px;
     --fs-4: 18px;
     --fs-5: 16px;
     --fw-500: 500;
     --fw-600: 600;
     --fw-700: 700;
+    /* transition */
     --transition: 0.25s ease;
     --transition-2: 0.5s ease;
-    
+    /* Radius */
     --radius-4: 4px;
     --radius-8: 8px;
     --radius-12: 12px;
