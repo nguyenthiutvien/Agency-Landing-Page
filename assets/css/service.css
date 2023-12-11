@@ -1,6 +1,5 @@
 .service {
   padding-top: 160px;
-  font-family: sans-serif;
   padding: 160px 90px 0 87px;
 }
 
@@ -16,7 +15,7 @@
 
 .subtitle {
   text-align: center;
-  color: #605d6c;
+  color: var(--gray);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -38,7 +37,7 @@
   width: 370px;
   text-align: center;
   border-radius: 12px;
-  background: #fff;
+  background: var(--white);
   box-shadow: 0px 20px 70px 0px rgba(18, 17, 22, 0.05);
 }
 
@@ -106,7 +105,7 @@
 }
 
 .grouplist:nth-child(3) .number {
-  background: #405bec;
+  background: var(---purple);
 }
 
 .grouplist .number {
@@ -126,7 +125,7 @@
 
 .groupbusiness .button-start {
   border-radius: 6px;
-  background: #7557ff;
+  background: var(---purple);
   border-width: 0;
   padding-inline: initial;
   padding: 15px 35px;
