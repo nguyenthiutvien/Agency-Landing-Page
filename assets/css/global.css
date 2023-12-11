@@ -1,0 +1,74 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  li { list-style: none; }
+  
+  a { text-decoration: none; }
+  
+  a,
+  img,
+  span,
+  input,
+  button
+  { display: block; }
+  
+  input,
+  button {
+    background: none;
+    border: none;
+  }
+  
+  button { cursor: pointer; }
+    
+  html {
+    font-family: var(--font-family);
+    scroll-behavior: smooth;
+  }
+  
+
+  
+  .w-100 { width: 100%; }
+  
+  .h1,
+  .h2,
+  
+  .h1 { font-size: var(--fs-1); }
+  
+  .h2 { font-size: var(--fs-2); }
+    
+  .section-text {
+    color: var(--gray);
+    font-size: var(--fs-4);
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    font-size: 16px;
+    font-weight: var(--fw-500);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 14px 25px;
+    border-radius:4px;
+    transition: var(--transition);
+  }
+  
+  .btn-primary {
+    color: var(--white);
+    background: var(---purple);
+  }
+    
+  .btn-primary:is(:hover, :focus) { background: var(---purple); }
+  
+  .btn-secondary {
+    background: var(---purple);
+    color: var(--white);
+  }
+  
+  .btn-secondary:is(:hover, :focus) { background: var(---purple); }
+  

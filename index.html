@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Marketing Acengy Landing Page</title>
 
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/variable.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
   <link rel="stylesheet" href="./assets/css/service.css">
   <link rel="stylesheet" href="./assets/css/testimonial.css">
   <link rel="stylesheet" href="./assets/css/contact.css">
@@ -18,10 +18,9 @@
 
   
 
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
-    rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body id="top">
@@ -31,9 +30,10 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo">
-        BB
-      </a>
+      <div class="logo">
+            <span class="logo-text-black">B</span>
+            <span class="logo-text-blue">B</span>
+    </div>
 
       <button class="nav-toggle-btn" data-nav-toggle-btn>
         <ion-icon name="menu-outline" class="open"></ion-icon>
@@ -49,31 +49,43 @@
             </li>
 
             <li>
-              <a href="#features" class="navbar-link" data-navbar-link>About</a>
+              <a href="#about" class="navbar-link" data-navbar-link>About</a>
             </li>
 
             <li>
-              <a href="#service" class="navbar-link" data-navbar-link>Contact</a>
+              <a href="#contact" class="navbar-link" data-navbar-link>Contact</a>
             </li>
 
             <li>
-              <a href="#blog" class="navbar-link" data-navbar-link>Pricing</a>
+              <a href="#pricing" class="navbar-link" data-navbar-link>Pricing</a>
             </li>
           </ul>
         </div>
       </nav>
-      <button  class="btn">
-      <button class="btn">
-        <span>Sign up</span>
-      </button>
-      <button class="btn btn-secondary">
-        <span>Sign in</span>
-      </button>
-    </button>
+      <div class="button-container">
+        <button class="btn">Sign In</button>
+        <button class="btn btn-secondary">Sign Up</button>
+      </div>
     </div>
   </header>
   <main>
     <article>
+        <section class="hero" id="home">
+            <div class="container">
+              <figure class="hero-banner">
+                <img src="./assets/images/background.png" alt="Illustration art" loading="lazy" class="w-100">
+              </figure>
+              <div class="hero-content">
+                <h2 class="h1 hero-title">We Help You <br> To Grow Your <br> Business</h2>
+                <p class="section-text">
+                    Power your business to new heights with our award-winning digital marketing services and technology platform.
+                </p>
+                <button class="btn btn-primary">
+                  <span>Get Started</span>
+                </button>
+              </div>
+            </div>
+          </section>
         <section>
       <div class="service">
         <div class="title">Our Services</div>
@@ -85,7 +97,7 @@
         <div class="groupcard">
           <div class="card">
             <div class="image">
-              <img src="./assets/traffic.png" alt="lỗi" />
+              <img src="./assets/images/traffic.png" alt="lỗi" />
             </div>
 
             <div class="cardtitle">Grow Your Traffic</div>
@@ -97,7 +109,7 @@
 
           <div class="card">
             <div class="image">
-              <img src="./assets/analytic.png" alt="lỗi" />
+              <img src="./assets/images/analytic.png" alt="lỗi" />
             </div>
 
             <div class="cardtitle">Get Quality Leads</div>
@@ -109,7 +121,7 @@
 
           <div class="card">
             <div class="image">
-              <img src="./assets/salesman.png" alt="lỗi" />
+              <img src="./assets/images/salesman.png" alt="lỗi" />
             </div>
 
             <div class="cardtitle">Drive More Sales</div>
@@ -123,7 +135,7 @@
         <div class="groupbusiness">
           <div>
             <div class="business-image">
-              <img src="./assets/conference.png" alt="lỗi" />
+              <img src="./assets/images/conference.png" alt="lỗi" />
             </div>
           </div>
 
@@ -178,7 +190,7 @@
 
           <div>
             <div class="business-image">
-              <img src="./assets/finance-analytics.png" alt="lỗi" />
+              <img src="./assets/images/finance-analytics.png" alt="lỗi" />
             </div>
           </div>
         </div>
@@ -201,7 +213,7 @@
               <div class="sampson-totton">Joe Root</div>
               <div class="uiux-designer-copy">UI/UX Designer</div>
             </div>
-            <img class="oval-copy-6" alt="" src="./assets/Oval.png">
+            <img class="oval-copy-6" alt="" src="./assets/images/Oval.png">
       
           </div>
           <div class="testimonial-2">
@@ -218,7 +230,7 @@
               <div class="sampson-totton">Joe Root</div>
               <div class="uiux-designer-copy">UI/UX Designer</div>
             </div>
-            <img class="oval-copy-6" alt="" src="./assets/Oval.png">
+            <img class="oval-copy-6" alt="" src="./assets/images/Oval.png">
       
           </div>
         </div>
@@ -289,14 +301,10 @@
       <section class="footer">
                   <div class="bg">
                   </div>
-
-                  <div style="    position: relative;
-    right: 3%;"
-
->
+                  <div style="position: relative; right: 3%;">
                   <div class="all-right-reserved">@ All right reserved 2022 webdesign.gdn</div>
                   <div class="follow-us">FOLLOW US</div>
-                  <img class="social-icon" alt="" src="./assets/Social.png">
+                  <img class="social-icon" alt="" src="./assets/images/Social.png">
                   <div class="footer-child">
                   </div>
                   <div class="footer-item">
